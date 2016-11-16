@@ -7,7 +7,7 @@
     <author>Todaro Giovanni - Consiglio Nazionale delle Ricerche -  Istituto per le Tecnologie Didattiche</author>
     <authorEmail>giovanni.todaro@itd.cnr.it</authorEmail>
     <authorUrl>http://www.pa.itd.cnr.it</authorUrl>
-    <version>CVS: 1.0.0</version>
+    <version>CVS: 1.1.0</version>
     <description>Gestione Anagrafica Studenti per registro di classe elettronico</description>
 
     <install> <!-- Runs on install -->
@@ -85,4 +85,7 @@
         <plugin group="search" plugin="anastud"/>
     </plugins>
 
+    <updateservers>
+            <server type="extension" priority="2" name="Gestione Anagrafica Studenti">https://raw.githubusercontent.com/todarogiovanni1980/com_anastud/master/extension.xml</server>
+    </updateservers>
 </extension>
